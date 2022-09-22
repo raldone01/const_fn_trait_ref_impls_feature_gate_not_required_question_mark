@@ -1,0 +1,12 @@
+[toolchain]
+# channel = "nightly-2022-09-16" # not working
+channel = "nightly-2022-09-17" # working without feature_gate with https://github.com/rust-lang/rust/pull/101802 merged
+components = [
+  "rustc",
+  "cargo",
+  "rustfmt",
+  "rust-std",
+  "clippy",
+  "rust-src",
+  "rust-analysis",
+]
